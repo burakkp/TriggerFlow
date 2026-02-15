@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TriggerFlow - Auto WireGuard Automation</title>
+    <style>
+        :root {
+            --bg-color: #0F172A;
+            --text-color: #F8FAFC;
+            --accent-color: #3B82F6; /* Tech Blue */
+            --card-bg: #1E293B;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Hero Section */
+        header {
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(to right, #60A5FA, #A78BFA);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .tagline {
+            font-size: 1.5rem;
+            color: #94A3B8;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 12px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            background-color: #2563EB;
+        }
+
+        /* Features Grid */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+
+        .feature-card {
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 12px;
+            border: 1px solid #334155;
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Privacy Policy Section (Required for Play Store) */
+        .privacy-section {
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 12px;
+            margin-top: 4rem;
+        }
+
+        h2 { border-bottom: 2px solid #334155; padding-bottom: 0.5rem; }
+
+        footer {
+            text-align: center;
+            padding: 4rem 0;
+            color: #64748B;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>TriggerFlow</h1>
+        <p class="tagline">Auto-Connect WireGuard when you leave home.</p>
+        
+        <a href="https://github.com/YOUR_USERNAME/TriggerFlow/releases" class="btn">
+            Download APK
+        </a>
+    </header>
+
+    <div class="features">
+        <div class="feature-card">
+            <div class="feature-icon">🔋</div>
+            <h3>Battery Efficient</h3>
+            <p>Uses Android's native NetworkCallback API. No polling, no battery drain. It sleeps until your WiFi changes.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">🔒</div>
+            <h3>Local & Private</h3>
+            <p>Zero data collection. Your WiFi SSIDs and Tunnel names never leave your device. Internet access is blocked for the app itself.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3>Instant Toggle</h3>
+            <p>Automatically detects when you leave your "Home" WiFi and engages WireGuard instantly to secure your mobile data.</p>
+        </div>
+    </div>
+
+    <section class="privacy-section" id="privacy">
+        <h2>Privacy Policy</h2>
+        <p><strong>Last Updated: October 2023</strong></p>
+        <p>TriggerFlow ("the App") is designed with privacy as its core principle. We do not collect, store, or transmit any personal user data.</p>
+        
+        <h3>1. Data Collection</h3>
+        <p>The App does not collect any personal information, location history, or usage analytics. All operations are performed locally on your device.</p>
+
+        <h3>2. Permissions Usage</h3>
+        <ul>
+            <li><strong>Location (ACCESS_FINE_LOCATION):</strong> This permission is required by the Android Operating System (Android 8.1+) to read the SSID (Name) of the currently connected WiFi network. TriggerFlow uses this strictly to determine if you are on a "Trusted" network. Your location is never recorded or shared.</li>
+            <li><strong>WireGuard Control:</strong> Used solely to send "Up" or "Down" commands to the official WireGuard application installed on your device.</li>
+        </ul>
+
+        <h3>3. Third-Party Services</h3>
+        <p>The App does not use any third-party analytics, tracking SDKs, or advertising networks.</p>
+
+        <h3>4. Contact</h3>
+        <p>For questions regarding privacy, please open an issue on our <a href="https://github.com/YOUR_USERNAME/TriggerFlow" style="color:#60A5FA">GitHub Repository</a>.</p>
+    </section>
+
+    <footer>
+        <p>TriggerFlow is open source software.</p>
+        <p>Not affiliated with the WireGuard project.</p>
+    </footer>
+</div>
+
+</body>
+</html>
