@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TriggerFlow" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_brand</item>
+        <item name="colorPrimaryVariant">@color/background_dark</item>
+        <item name="colorOnPrimary">@color/text_high_emphasis</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_brand</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/background_dark</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <!-- Text colors -->
+        <item name="android:textColor">@color/text_high_emphasis</item>
+        <item name="android:textColorSecondary">@color/text_medium_emphasis</item>
+        
+        <!-- Customize your theme here. -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.App.Large</item>
+    </style>
+
+    <style name="ShapeAppearance.App.Small" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.Medium" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.Large" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+</resources>

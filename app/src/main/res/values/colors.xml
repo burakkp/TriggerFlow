@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Backgrounds -->
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="surface_light">#2C2C2C</color>
+    
+    <!-- Brand Colors -->
+    <color name="primary_brand">#5E5CE6</color> <!-- Electric Blue / Indigo -->
+    <color name="secondary_brand">#03DAC6</color> <!-- Teal -->
+    <color name="accent_brand">#BB86FC</color>
+    
+    <!-- Text -->
+    <color name="text_high_emphasis">#FFFFFF</color>
+    <color name="text_medium_emphasis">#B0B0B0</color>
+    <color name="text_disabled">#66FFFFFF</color>
+    
+    <!-- Status -->
+    <color name="status_active">#03DAC6</color>
+    <color name="status_inactive">#CF6679</color>
+    
+    <!-- Legacy/System (mapped to new) -->
+    <color name="purple_200">@color/accent_brand</color>
+    <color name="purple_500">@color/primary_brand</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">@color/secondary_brand</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- WiFi Waves with Lightning Bolt -->
+    <group
+        android:translateX="54"
+        android:translateY="54">
+        
+        <!-- Bottom WiFi Wave (Purple) -->
+        <path
+            android:pathData="M-20,5 Q-15,0 -10,5"
+            android:strokeWidth="3"
+            android:strokeColor="#8B5CF6"
+            android:fillColor="@android:color/transparent"
+            android:strokeLineCap="round"/>
+        
+        <!-- Middle WiFi Wave (Purple-Blue) -->
+        <path
+            android:pathData="M-25,0 Q-15,-8 -5,0"
+            android:strokeWidth="3"
+            android:strokeColor="#6366F1"
+            android:fillColor="@android:color/transparent"
+            android:strokeLineCap="round"/>
+        
+        <!-- Top WiFi Wave (Cyan) -->
+        <path
+            android:pathData="M-30,-5 Q-15,-15 0,-5"
+            android:strokeWidth="3"
+            android:strokeColor="#06B6D4"
+            android:fillColor="@android:color/transparent"
+            android:strokeLineCap="round"/>
+        
+        <!-- Lightning Bolt -->
+        <path
+            android:pathData="M2,-18 L-4,2 L4,2 L-2,18 L10,-6 L2,-6 Z"
+            android:fillColor="#FFFFFF"
+            android:strokeWidth="1"
+            android:strokeColor="#6366F1"/>
+            
+    </group>
+</vector>

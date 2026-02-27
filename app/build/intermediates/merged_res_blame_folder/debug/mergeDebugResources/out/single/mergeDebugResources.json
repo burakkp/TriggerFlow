@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.triggerflow.app-debug-35:/layout_activity_main.xml.flat",
+        "source": "com.triggerflow.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/drawable_ic_info.xml.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/layout_activity_premium.xml.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/layout/activity_premium.xml"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/layout_activity_main.xml.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-debug-35:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "/home/burakkp/.gradle/daemon/9.1.0/com.triggerflow.app-main-37:/mipmap-mdpi/ic_launcher_foreground.webp"
+    }
+]

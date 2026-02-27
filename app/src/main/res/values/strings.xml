@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TriggerFlow</string>
+    <string name="title_home_ssid">Home WiFi SSID</string>
+    <string name="hint_home_ssid">e.g. MySuperWiFi</string>
+    <string name="title_tunnel_name">WireGuard VPN Tunnel Name</string>
+    <string name="hint_tunnel_name">Interface name (e.g., wg0)</string>
+    <string name="hint_adblock_tunnel_name">Ad-Block Tunnel (e.g., wg0-adblock)</string>
+    <string name="label_enable_adblock">Enable Ad-Blocking DNS</string>
+    <string name="dialog_vpn_info_title">What is a VPN Tunnel Name?</string>
+    <string name="dialog_vpn_info_desc">This is the name of the WireGuard interface you want to automate.\n\nTo find it:\n1. Open the WireGuard app.\n2. Look at the name of your configured tunnel (often \'wg0\' or similar).\n3. Enter that exact name here so TriggerFlow can control it.</string>
+    <string name="label_enable_service">Enable Auto-Monitor</string>
+    <string name="btn_save">Save Settings</string>
+    <string name="btn_req_permissions">Request Permissions</string>
+    <string name="status_label">Status: %1$s</string>
+    <string name="status_running">Running</string>
+    <string name="status_stopped">Stopped</string>
+    <string name="desc_instructions">1. Enter your exact Home WiFi Name.\n2. Enter the Tunnel Name from WireGuard App.\n3. Enable "Allow remote control" in WireGuard App.\n4. Grant Permissions and Save.</string>
+</resources>

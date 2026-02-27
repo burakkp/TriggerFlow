@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_brand">#BB86FC</color>
+    <color name="background_dark">#121212</color>
+    <color name="black">#000000</color>
+    <color name="primary_brand">#5E5CE6</color>
+    <color name="purple_200">@color/accent_brand</color>
+    <color name="purple_500">@color/primary_brand</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="secondary_brand">#03DAC6</color>
+    <color name="status_active">#03DAC6</color>
+    <color name="status_inactive">#CF6679</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="surface_light">#2C2C2C</color>
+    <color name="teal_200">@color/secondary_brand</color>
+    <color name="teal_700">#018786</color>
+    <color name="text_disabled">#66FFFFFF</color>
+    <color name="text_high_emphasis">#FFFFFF</color>
+    <color name="text_medium_emphasis">#B0B0B0</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">TriggerFlow</string>
+    <string name="btn_req_permissions">Request Permissions</string>
+    <string name="btn_save">Save Settings</string>
+    <string name="desc_instructions">1. Enter your exact Home WiFi Name.\n2. Enter the Tunnel Name from WireGuard App.\n3. Enable "Allow remote control" in WireGuard App.\n4. Grant Permissions and Save.</string>
+    <string name="dialog_vpn_info_desc">This is the name of the WireGuard interface you want to automate.\n\nTo find it:\n1. Open the WireGuard app.\n2. Look at the name of your configured tunnel (often \'wg0\' or similar).\n3. Enter that exact name here so TriggerFlow can control it.</string>
+    <string name="dialog_vpn_info_title">What is a VPN Tunnel Name?</string>
+    <string name="hint_adblock_tunnel_name">Ad-Block Tunnel (e.g., wg0-adblock)</string>
+    <string name="hint_home_ssid">e.g. MySuperWiFi</string>
+    <string name="hint_tunnel_name">Interface name (e.g., wg0)</string>
+    <string name="label_enable_adblock">Enable Ad-Blocking DNS</string>
+    <string name="label_enable_service">Enable Auto-Monitor</string>
+    <string name="status_label">Status: %1$s</string>
+    <string name="status_running">Running</string>
+    <string name="status_stopped">Stopped</string>
+    <string name="title_home_ssid">Home WiFi SSID</string>
+    <string name="title_tunnel_name">WireGuard VPN Tunnel Name</string>
+    <style name="ShapeAppearance.App.Large" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+    <style name="ShapeAppearance.App.Medium" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+    <style name="ShapeAppearance.App.Small" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+    <style name="Theme.TriggerFlow" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary_brand</item>
+        <item name="colorPrimaryVariant">@color/background_dark</item>
+        <item name="colorOnPrimary">@color/text_high_emphasis</item>
+        
+        <item name="colorSecondary">@color/secondary_brand</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/background_dark</item>
+        
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        
+        <item name="android:textColor">@color/text_high_emphasis</item>
+        <item name="android:textColorSecondary">@color/text_medium_emphasis</item>
+        
+        
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.App.Large</item>
+    </style>
+</resources>
